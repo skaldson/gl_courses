@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/skaldson/projects/EratosfenGrid/build",
+  "command": "/usr/bin/c++    -g   -o CMakeFiles/eratosfengrid.dir/main.cpp.o -c /home/skaldson/projects/EratosfenGrid/main.cpp",
+  "file": "/home/skaldson/projects/EratosfenGrid/main.cpp"
+},
+{
+  "directory": "/home/skaldson/projects/EratosfenGrid/build",
+  "command": "/usr/bin/c++    -g   -o CMakeFiles/eratosfengrid.dir/EratoFuncDefinition.cpp.o -c /home/skaldson/projects/EratosfenGrid/EratoFuncDefinition.cpp",
+  "file": "/home/skaldson/projects/EratosfenGrid/EratoFuncDefinition.cpp"
+}
+]

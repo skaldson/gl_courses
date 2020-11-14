@@ -1,0 +1,7 @@
+/home/wardgib/projects/bunnyTortois/build/CMakeFiles/install/strip.dir
+/home/wardgib/projects/bunnyTortois/build/CMakeFiles/install/local.dir
+/home/wardgib/projects/bunnyTortois/build/CMakeFiles/edit_cache.dir
+/home/wardgib/projects/bunnyTortois/build/CMakeFiles/rebuild_cache.dir
+/home/wardgib/projects/bunnyTortois/build/CMakeFiles/bunnytortois.dir
+/home/wardgib/projects/bunnyTortois/build/CMakeFiles/list_install_components.dir
+/home/wardgib/projects/bunnyTortois/build/CMakeFiles/install.dir

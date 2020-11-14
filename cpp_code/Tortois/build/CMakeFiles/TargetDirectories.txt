@@ -1,0 +1,7 @@
+/home/skaldson/projects/Tortois/build/CMakeFiles/install/strip.dir
+/home/skaldson/projects/Tortois/build/CMakeFiles/edit_cache.dir
+/home/skaldson/projects/Tortois/build/CMakeFiles/tortois.dir
+/home/skaldson/projects/Tortois/build/CMakeFiles/rebuild_cache.dir
+/home/skaldson/projects/Tortois/build/CMakeFiles/list_install_components.dir
+/home/skaldson/projects/Tortois/build/CMakeFiles/install/local.dir
+/home/skaldson/projects/Tortois/build/CMakeFiles/install.dir

@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/skaldson/projects/Tortois/funcDeclaration.h
+iostream
+-
+iomanip
+-
+string
+-
+cstring
+-
+
+/home/skaldson/projects/Tortois/funcDefinition.cpp
+funcDeclaration.h
+/home/skaldson/projects/Tortois/funcDeclaration.h
+
+/home/skaldson/projects/Tortois/main.cpp
+funcDeclaration.h
+/home/skaldson/projects/Tortois/funcDeclaration.h
+

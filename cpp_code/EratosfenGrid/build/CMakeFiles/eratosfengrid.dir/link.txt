@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/eratosfengrid.dir/main.cpp.o CMakeFiles/eratosfengrid.dir/EratoFuncDefinition.cpp.o  -o eratosfengrid 

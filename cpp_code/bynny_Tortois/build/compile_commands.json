@@ -1,0 +1,13 @@
+[
+{
+  "directory": "/home/wardgib/projects/bunnyTortois/build",
+  "command": "/usr/bin/c++    -g   -o CMakeFiles/bunnytortois.dir/main.cpp.o -c /home/wardgib/projects/bunnyTortois/main.cpp",
+  "file": "/home/wardgib/projects/bunnyTortois/main.cpp"
+},
+
+{
+  "directory": "/home/wardgib/projects/bunnyTortois/build",
+  "command": "/usr/bin/c++    -g   -o CMakeFiles/bunnytortois.dir/runerDefFunc.cpp.o -c /home/wardgib/projects/bunnyTortois/runerDefFunc.cpp",
+  "file": "/home/wardgib/projects/bunnyTortois/runerDefFunc.cpp"
+}
+]

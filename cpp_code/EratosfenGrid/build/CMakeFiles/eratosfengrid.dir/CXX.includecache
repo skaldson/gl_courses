@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/skaldson/projects/EratosfenGrid/EratoFuncDefinition.cpp
+EratoFunction.h
+/home/skaldson/projects/EratosfenGrid/EratoFunction.h
+
+/home/skaldson/projects/EratosfenGrid/EratoFunction.h
+ctime
+-
+cmath
+-
+cstdlib
+-
+iostream
+-
+
+/home/skaldson/projects/EratosfenGrid/main.cpp
+EratoFunction.h
+/home/skaldson/projects/EratosfenGrid/EratoFunction.h
+

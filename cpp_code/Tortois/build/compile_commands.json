@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/skaldson/projects/Tortois/build",
+  "command": "/usr/bin/c++    -g   -o CMakeFiles/tortois.dir/main.cpp.o -c /home/skaldson/projects/Tortois/main.cpp",
+  "file": "/home/skaldson/projects/Tortois/main.cpp"
+},
+{
+  "directory": "/home/skaldson/projects/Tortois/build",
+  "command": "/usr/bin/c++    -g   -o CMakeFiles/tortois.dir/funcDefinition.cpp.o -c /home/skaldson/projects/Tortois/funcDefinition.cpp",
+  "file": "/home/skaldson/projects/Tortois/funcDefinition.cpp"
+}
+]

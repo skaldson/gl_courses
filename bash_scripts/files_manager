@@ -1,0 +1,120 @@
+#!/bin/bash
+
+if [[ -d $1 ]]
+then
+    dir=$1
+    ls $dir
+else
+    dir=$PWD
+    ls $dir
+fi
+
+full_path="$(realpath $dir)"
+cd $full_path
+
+function current_directory (){
+    ls $full_path
+    echo "1) view           3) copy                 5) delete"
+    echo "2) change_dir     4) move_or_rename       6) Exit"
+}
+
+function find_directory_for_action (){
+    read -p "Enter dir : " directory
+    directory="$(realpath $directory)"
+    echo $directory
+}
+
+select option in view change_dir copy move_or_rename delete Exit
+do
+
+    case $option in
+    view)
+        read -p "Full(f) or short(s)?" answer
+        if [[ $answer == "f" ]]
+        then
+            ls -la $full_path
+            echo
+        fi
+        if [[ $answer == "s" ]]
+        then            
+            ls $full_path
+            echo
+        fi
+        current_directory
+        ;;
+    change_dir)
+        find_directory_for_action
+        full_path=$directory
+        cd $full_path
+        current_directory
+        ;;
+    copy)
+        read -p "Enter file : " file_name
+        find_directory_for_action
+        cp $file_name $directory
+        current_directory
+        ;;
+    move_or_rename)
+            read -p "Move(m) or rename(r)? : " answer
+            if [[ $answer == "m" ]]
+            then
+                read -p "Enter file  :" file_name
+                find_directory_for_action
+                if [ -d $directory ]
+                then
+                    mv $file_name $directory
+                else
+                    echo "$directory is not a directory"
+                fi
+            fi
+            if [[ $answer == "r" ]]
+            then
+                read -p "Enter file : " file_name
+                read -p "Enter new file name : " new_name
+                if [ ! -f $new_name ]
+                then
+                    mv $file_name $new_name
+                fi
+            fi
+            current_directory
+            ;;
+    delete)
+        read -p "Enter file : " file_name
+        if [ ! -f $file_name ]
+        then
+            echo "file don't exist"
+        else
+            rm -f $file_name
+        fi
+        current_directory
+        ;;
+    Exit)
+        exit 0
+        ;;
+    *)
+        echo "Enter ^D for exit"
+        ;;
+    esac
+done
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
